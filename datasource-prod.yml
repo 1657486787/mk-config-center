@@ -1,0 +1,11 @@
+default:
+  url: jdbc:postgresql://192.168.1.1:5432/crm_development?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=round
+  username: postgres
+  password: postgres
+  driverClass: org.postgresql.Driver
+
+teamwork:
+  url: jdbc:postgresql://192.168.1.1:5432/teamwork?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=round
+  username: postgres
+  password: postgres
+  driverClass: org.postgresql.Driver
